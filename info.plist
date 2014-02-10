@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>CC2E3396-EF18-42D4-A86B-AE78EB62761E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kajetan Weiß</string>
+	<key>description</key>
+	<string>copy current timestamp to clipboard</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>timestamp</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>now</string>
+				<key>script</key>
+				<string>### edit this page to your liking ###
+#    &lt;(^_^)&gt; *free hugs* &lt;(^o^)&gt;    #
+
+### enter your locale setting: ###
+myLocale = 'de_DE.UTF-8'
+
+### use the formatList to specify time formats: ###
+# (see "http://strftime.org/" for the format syntax)
+formatList = [
+	("%Y%m%d%H%M", "YearMonthDayHourMinute for versioning"),
+	("%x %X", "Date and time representation appropriate to locale setting"),
+	("%A %d.%b.%Y um %H:%M Uhr", "German date representation")
+]
+
+# code... !don't edit below! #
+execfile("main.py")
+main(formatList)</string>
+				<key>subtext</key>
+				<string>generates different timestamps</string>
+				<key>title</key>
+				<string>timestamp</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CC2E3396-EF18-42D4-A86B-AE78EB62761E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>04229AF2-782B-42F1-9718-A9AE36086296</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>CC2E3396-EF18-42D4-A86B-AE78EB62761E</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
