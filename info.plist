@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>ley.alfreTS</string>
+	<string>com.ley.alfreTS</string>
 	<key>connections</key>
 	<dict>
 		<key>CC2E3396-EF18-42D4-A86B-AE78EB62761E</key>
@@ -21,7 +21,7 @@
 	<key>createdby</key>
 	<string>Kajetan Weiß</string>
 	<key>description</key>
-	<string>copy current timestamp to clipboard</string>
+	<string>copy formatted current timestamp to clipboard</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
