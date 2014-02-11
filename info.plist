@@ -42,8 +42,8 @@
 #    &lt;(^_^)&gt; *free hugs* &lt;(^o^)&gt;    #
 
 ### enter or select your locale setting: ###
-# myLocale = 'de_DE.UTF-8'
-# myLocale = 'en_GB.UTF-8'
+#myLocale = 'de_DE.UTF-8'
+#myLocale = 'en_GB.UTF-8'
 myLocale = 'en_US.UTF-8'
 
 ### use the formatList to specify time formats: ###
@@ -51,7 +51,7 @@ myLocale = 'en_US.UTF-8'
 formatList = [
 	("%Y%m%d%H%M", "YearMonthDayHourMinute for versioning"),
 	("%x %X", "Date and time representation appropriate to locale setting"),
-	# ("%A %d.%b.%Y um %H:%M Uhr", "German date representation"),
+	("%A %d.%b.%Y um %H:%M Uhr", "German date representation"),
 	("%A, %B %d, %Y at %Hh:%M %p", "US date representation"),
 ]
 
