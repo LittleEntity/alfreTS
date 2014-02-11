@@ -31,6 +31,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
@@ -42,9 +57,9 @@
 #    &lt;(^_^)&gt; *free hugs* &lt;(^o^)&gt;    #
 
 ### enter or select your locale setting: ###
-#myLocale = 'de_DE.UTF-8'
+myLocale = 'de_DE.UTF-8'
 #myLocale = 'en_GB.UTF-8'
-myLocale = 'en_US.UTF-8'
+#myLocale = 'en_US.UTF-8'
 
 ### use the formatList to specify time formats: ###
 # (see "http://strftime.org/" for the format syntax)
@@ -52,7 +67,7 @@ formatList = [
 	("%Y%m%d%H%M", "YearMonthDayHourMinute for versioning"),
 	("%x %X", "Date and time representation appropriate to locale setting"),
 	("%A %d.%b.%Y um %H:%M Uhr", "German date representation"),
-	("%A, %B %d, %Y at %Hh:%M %p", "US date representation"),
+	#("%A, %B %d, %Y at %Hh:%M %p", "US date representation"),
 ]
 
 ##############################
@@ -73,21 +88,6 @@ main(formatList)</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>CC2E3396-EF18-42D4-A86B-AE78EB62761E</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
