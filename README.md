@@ -2,7 +2,7 @@
 
 This is a time stamp workflow for the [Alfred Application](http://www.alfredapp.com/).
 
-**Download** the current package via [dropbox](https://www.dropbox.com/s/gqbb6ih05alnny4/alfreTS_v0.0.201402110031.alfredworkflow).
+**Download** the current package via [dropbox](https://www.dropbox.com/sh/vkdzbh6vqtp9l5j/ukytTMnM34).
 
 Open the alfred window then type `now`. The results show the current timestamp in different formats. Selecting an option will result in the shown formatted timestamp being copied to the clipboard.
 
