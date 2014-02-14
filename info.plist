@@ -38,7 +38,8 @@
 				<key>keyword</key>
 				<string>now</string>
 				<key>script</key>
-				<string>### edit this page to your liking ###
+				<string># -*- coding: utf-8 -*-
+### edit this page to your liking ###
 #    &lt;(^_^)&gt; *free hugs* &lt;(^o^)&gt;    #
 
 ### enter or select your locale setting: ###
@@ -50,10 +51,10 @@ myLocale = 'de_DE.UTF-8'
 ### use the formatList to specify time formats: ###
 # (see "http://strftime.org/" for the format syntax)
 formatList = [
-	("%Y%m%d%H%M", "YearMonthDayHourMinute for versioning"),
-	("%x %X", "Date and time representation appropriate to locale setting"),
-	("%A %d.%b.%Y um %H:%M Uhr", "German date representation"),
-	#("%A, %B %d, %Y at %Hh:%M %p", "US date representation"),
+	(u"%Y%m%d%H%M", u"YearMonthDayHourMinute for versioning"),
+	(u"%x %X", u"Date and time representation appropriate to locale setting"),
+	(u"%A %d.%b.%Y um %H:%M Uhr", u"German date representation"),
+	#(u"%A, %B %d, %Y at %Hh:%M %p", u"US date representation"),
 ]
 
 ##############################
