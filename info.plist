@@ -31,23 +31,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -59,6 +44,7 @@
 ### enter or select your locale setting: ###
 myLocale = 'de_DE.UTF-8'
 #myLocale = 'en_GB.UTF-8'
+#myLocale = 'el_GR.UTF-8'
 #myLocale = 'en_US.UTF-8'
 
 ### use the formatList to specify time formats: ###
@@ -88,6 +74,21 @@ main(formatList)</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>CC2E3396-EF18-42D4-A86B-AE78EB62761E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>04229AF2-782B-42F1-9718-A9AE36086296</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>

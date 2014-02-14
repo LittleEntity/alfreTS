@@ -10,7 +10,7 @@ def main(formatList):
 	for (format, description) in formatList:
 		counter += 1
 		nowLocalizedTimestamp = localtime(time( ))
-		formattedTimestamp = strftime(format, nowLocalizedTimestamp)
+		formattedTimestamp = (strftime(format, nowLocalizedTimestamp)).decode('utf-8')
 		feedback.addItem(
 			str(counter), 
 			formattedTimestamp, 
