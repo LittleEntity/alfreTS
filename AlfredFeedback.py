@@ -3,7 +3,10 @@ from __future__ import unicode_literals
 import xml.etree.ElementTree as ET
 
 class AlfredFeedback:
-	itemsElement = ET.Element( u'items' )
+	#itemsElement = ET.Element( u'items' )
+
+	def __init__(self):
+		self.itemsElement = ET.Element( u'items' )
 
 	def addItem(	
 			self, 
