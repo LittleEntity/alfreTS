@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 from AlfredFeedback import AlfredFeedback
 from locale import setlocale, LC_ALL
 from time import localtime, strftime, time
