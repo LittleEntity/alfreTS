@@ -46,5 +46,5 @@ class AlfredFeedback:
 					u'must be a string containing "file"!' )
 
 	def writeFeedback( self ):
-		response = ET.tostring( self.itemsElement )
-		print( response.encode( 'UTF-8' ) )
+		response = ET.tostring( self.itemsElement, 'ascii' )
+		print( response )
